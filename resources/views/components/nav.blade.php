@@ -9,19 +9,19 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarChabell">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <x-nav-Link routs="inicio">Inicio</x-nav-Link>
+                    <x-nav-link routs="inicio">Inicio</x-nav-link>
                 </li>
                 <li class="nav-item">
-                    <x-nav-Link routs="producto">Producto</x-nav-Link>
+                    <x-nav-link routs="producto">Producto</x-nav-link>
                 </li>
                 <li class="nav-item">
-                    <x-nav-Link routs="nosotros">Nosotros</x-nav-Link>
+                    <x-nav-link routs="nosotros">Nosotros</x-nav-link>
                 </li>
                 <li class="nav-item">
-                    <x-nav-Link routs="contacto">Contacto</x-nav-Link>
+                    <x-nav-link routs="contacto">Contacto</x-nav-link>
                 </li>
                 <li class="nav-item">
-                    <x-nav-Link routs="cart"><i class="bi bi-cart"></i></x-nav-Link>
+                    <x-nav-link routs="cart"><i class="bi bi-cart"></i></x-nav-link>
                 </li>
 
 
