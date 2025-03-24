@@ -55,7 +55,7 @@ class ArticuloController extends Controller
         $maxpaginado_producto = ceil(($countproduct) / 6);
         $Carruseles = Carrusel::orderBy('id_carrusel', 'asc')->take(5)->get();
 
-        return view("Product", [
+        return view("product", [
             "Carruseles" => $Carruseles,
             "Articulos" => $Articulos,
             "maxpaginado_producto" => $maxpaginado_producto
