@@ -8,8 +8,8 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="{{asset("css/Style.css")}}">
-    <title>@yield("title", "laravel")</title>
+    <link rel="stylesheet" href="{{secure_asset("css/Style.css")}}">
+    <title>@yield("title", "Chabell")</title>
 </head>
 
 <body>
