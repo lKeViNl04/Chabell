@@ -39,7 +39,7 @@ class AdminController extends Controller
 
         $maxpaginado_User = $User_por_paginado->lastPage();
 
-        return view("admin.User.adminUser", [
+        return view("admin.user.adminUser", [
             'User_por_paginado' => $User_por_paginado,
             'countUser' => $countUser,
             'maxpaginado_User' => $maxpaginado_User,
